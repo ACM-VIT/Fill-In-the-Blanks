@@ -3,10 +3,10 @@
 <img src="https://raw.githubusercontent.com/Malika01/hacktoberfest-readme/master/Final.png">
 </p>
 
-<h2 align="center"> PROJECT TITLE </h2>
+<h2 align="center"> Fill in the Blanks </h2>
 
 <p align="center"> 
-Short description about the project.
+You’ve lost random parts of your images. You need some mechanism to make your image set presentable again. Use your skill in Machine Learning to achieve this.
 </p>
 
 <p>
@@ -51,8 +51,8 @@ Short description about the project.
   For additional guidelines, refer to [participation rules](https://hacktoberfest.digitalocean.com/details#rules)
 
 ---
-
--_domain specific guidelines here_-
+## What counts as a PR?
+Check out our [issues](https://github.com/ACM-VIT/Fill-In-the-Blanks/issues) and try to solve them !
   
 ---
 ## Overview
