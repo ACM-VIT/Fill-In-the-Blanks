@@ -57,11 +57,32 @@ Check out our [issues](https://github.com/ACM-VIT/Fill-In-the-Blanks/issues) and
 ---
 ## Overview
 
-The overview starts here. Random text about the project, motive, how, what, why etc.
+### Idea
+Fill in the Blanks, but with Images!
+
+### Explanation
+The aim is to build a deep learning model, that takes as input an image with a missing rectangular portion and a boolean mask indicating its location, and imagines the missing content. The basic set of packages can be found in requirements.txt and can be installed using the pip command from usage section. The suggested dataset consists of images of various indoor scenes. Use the provided code to create the blanks in the images.
+
+---
+## Dataset
+[Indoor Scenes [2.4GB tar]](http://groups.csail.mit.edu/vision/LabelMe/NewImages/indoorCVPR_09.tar)
+
+### You may use the provided funtion to create the blanks
+```python
+import random_rect
+new_img, bool_mask = random_rect(img, area)
+```
+Where <code>img</code>, <code>new_img</code> and <code>bool_mask</code> are NumPy or TensorFlow arrays,
+<code>area</code> is a valid fraction in [0, 1].
+
+
 
 ---
 ## Usage
 <!-- How To, Features, Installation etc. as subheadings in this section. example-->
+Packages to be used are TensorFlow for creating and training the model, NumPy for handling arrays, MatPlotLib for image output.
+Run the following command to install all the required packages for this project
+<pre>pip install requirements.txt</pre>
 
 Lets get started!
 ```console
@@ -73,5 +94,12 @@ git merge
 ---
 ## Authors
 
-**Authors:** <!-- [author1's name](link to their github profile), [author2's name](link to their github profile) .. -->  
+
+**Authors:**
+[Rohan Nolan Lasrado](https://github.com/lasradorohan/), 
+[Atharva Gundawar](https://github.com/Atharva-Gundawar)
+<br>
 **Contributors:** <!-- Generate contributors list using this link - https://contributors-img.web.app/preview -->
+<a href="https://github.com/ACM-VIT/Fill-In-the-Blanks/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=ACM-VIT/Fill-In-the-Blanks" />
+</a>
