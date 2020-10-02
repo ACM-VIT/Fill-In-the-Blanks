@@ -55,6 +55,16 @@ You’ve lost random parts of your images. You need some mechanism to make your 
 Check out our [issues](https://github.com/ACM-VIT/Fill-In-the-Blanks/issues) and try to solve them !
   
 ---
+## Interacting with Issues
+
+  * There are helper issues that detail all you have to do to complete the project.
+      * Read the helper issues and work on the corresponding code in your fork of the repo.
+      * If you have some doubt regarding the 'help' given, comment below the issue.
+      * If you have some doubt not related to any 'helper issue/s' open, Open up a new issue, select doubt and fill in the template.
+  * If you want to provide some extra help to fellow participants, open up a new helper issue. Don't include any solution/code!
+  * Do not spam
+
+---
 ## Overview
 
 ### Idea
